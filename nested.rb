@@ -127,7 +127,7 @@ def adding_to_dennis
         }
      }
     dennis_ritchies_new_data = programmer_hash[:dennis_ritchie][:languages]
-    
+    dennis_ritchies_new_data[1] = "Assembly"
 
 #All you
 programmer_hash[:dennis_ritchie][:languages] = dennis_ritchies_new_data
